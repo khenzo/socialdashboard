@@ -6,7 +6,7 @@
 
 $host = "localhost"; // If you don't know what your host is, it's safe to leave it localhost
 $dbName = "phruitam_socialdashboard"; // Database name
-$dbUser = "phruitam_admin"; // Username
-$dbPass = "mySq1-db-@dm1n"; // Password
+$dbUser = "root"; // Username
+$dbPass = "khenzotrip2"; // Password
 
 ?>

@@ -21,12 +21,12 @@
 
         <!--basic styles-->
 
-		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-		<link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+		<link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="/assets/css/bootstrap-responsive.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
 
 		<!--[if IE 7]>
-		  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
+		  <link rel="stylesheet" href="/assets/css/font-awesome-ie7.min.css" />
 		<![endif]-->
 
 		<!--page specific plugin styles-->
@@ -37,12 +37,12 @@
 
 		<!--ace styles-->
 
-		<link rel="stylesheet" href="assets/css/ace.min.css" />
-		<link rel="stylesheet" href="assets/css/ace-responsive.min.css" />
-		<link rel="stylesheet" href="assets/css/ace-skins.min.css" />
+		<link rel="stylesheet" href="/assets/css/ace.min.css" />
+		<link rel="stylesheet" href="/assets/css/ace-responsive.min.css" />
+		<link rel="stylesheet" href="/assets/css/ace-skins.min.css" />
 
 		<!--[if lte IE 8]>
-		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+		  <link rel="stylesheet" href="/assets/css/ace-ie.min.css" />
 		<![endif]-->
 
 		<!--inline styles if any-->
@@ -215,7 +215,7 @@
 
 								<li>
 									<a href="#">
-										<img src="assets/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
+										<img src="/assets/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
 										<span class="msg-body">
 											<span class="msg-title">
 												<span class="blue">Alex:</span>
@@ -232,7 +232,7 @@
 
 								<li>
 									<a href="#">
-										<img src="assets/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
+										<img src="/assets/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
 										<span class="msg-body">
 											<span class="msg-title">
 												<span class="blue">Susan:</span>
@@ -249,7 +249,7 @@
 
 								<li>
 									<a href="#">
-										<img src="assets/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
+										<img src="/assets/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
 										<span class="msg-body">
 											<span class="msg-title">
 												<span class="blue">Bob:</span>
@@ -289,16 +289,16 @@
 							<ul class="pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-closer" id="user_menu">
 
 		                        <?php if(in_array(1, $_SESSION['jigowatt']['user_level'])) { ?>
-					            <li><a href="admin/index.php"><i class="icon-home"></i> <?php _e('Control Panel'); ?></a></li>
-					            <li><a href="admin/settings.php"><i class="icon-cog"></i> <?php _e('Settings'); ?></a></li> <?php } ?>
-					            <li><a href="profile.php"><i class="icon-user"></i> <?php _e('My Account'); ?></a></li>
+					            <li><a href="/admin/index.php"><i class="icon-home"></i> <?php _e('Control Panel'); ?></a></li>
+					            <li><a href="/admin/settings.php"><i class="icon-cog"></i> <?php _e('Settings'); ?></a></li> <?php } ?>
+					            <li><a href="/profile.php"><i class="icon-user"></i> <?php _e('My Account'); ?></a></li>
 					            <li><a href="http://mgates.me/php-login-user-manage/install.php"><i class="icon-info-sign"></i> <?php _e('Help'); ?></a></li>
 					            <li class="divider"></li>
-					            <li><a href="logout.php"><?php _e('Sign out'); ?></a></li>
+					            <li><a href="/logout.php"><?php _e('Sign out'); ?></a></li>
 
 							</ul>
                             <?php } else { ?>
-                                <a href="login.php" class="signup-link"><strong><?php _e('Sign in!'); ?></strong></a>
+                                <a href="/login.php" class="signup-link"><strong><?php _e('Sign in!'); ?></strong></a>
 		                    <?php } ?>
 						</li>
 					</ul><!--/.ace-nav-->

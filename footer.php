@@ -8,7 +8,7 @@
 		<script type="text/javascript">
 			window.jQuery || document.write("<script src='assets/js/jquery-1.9.1.min.js'>"+"<"+"/script>");
 		</script>
-		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="/assets/js/bootstrap.min.js"></script>
 
 		<!--page specific plugin scripts-->
 
@@ -16,19 +16,19 @@
 		  <script src="/js/"></script>
 		<![endif]-->
 
-		<script src="assets/js/jquery-ui-1.10.3.custom.min.js"></script>
-		<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
-		<script src="assets/js/jquery.slimscroll.min.js"></script>
-		<script src="assets/js/jquery.easy-pie-chart.min.js"></script>
-		<script src="assets/js/jquery.sparkline.min.js"></script>
-		<script src="assets/js/flot/jquery.flot.min.js"></script>
-		<script src="assets/js/flot/jquery.flot.pie.min.js"></script>
-		<script src="assets/js/flot/jquery.flot.resize.min.js"></script>
+		<script src="/assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="/assets/js/jquery.ui.touch-punch.min.js"></script>
+		<script src="/assets/js/jquery.slimscroll.min.js"></script>
+		<script src="/assets/js/jquery.easy-pie-chart.min.js"></script>
+		<script src="/assets/js/jquery.sparkline.min.js"></script>
+		<script src="/assets/js/flot/jquery.flot.min.js"></script>
+		<script src="/assets/js/flot/jquery.flot.pie.min.js"></script>
+		<script src="/assets/js/flot/jquery.flot.resize.min.js"></script>
 
 		<!--ace scripts-->
 
-		<script src="assets/js/ace-elements.min.js"></script>
-		<script src="assets/js/ace.min.js"></script>
+		<script src="/assets/js/ace-elements.min.js"></script>
+		<script src="/assets/js/ace.min.js"></script>
 
 		<!--inline scripts related to this page-->
 

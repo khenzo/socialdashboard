@@ -19,11 +19,11 @@
 		<![endif]-->
 
 		<!-- Le styles -->
-		<link href="../assets-admin/css/bootstrap.min.css" rel="stylesheet">
-		<link href="../assets-admin/css/jigowatt.css" rel="stylesheet">
-		<link href="assets-admin/css/datepicker.css" rel="stylesheet">
-		<link href="assets-admin/js/select2/select2.css" rel="stylesheet">
-		<link href="assets-admin/css/prettify.css" rel="stylesheet">
+		<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="../assets/css/jigowatt.css" rel="stylesheet">
+		<link href="../assets/css/datepicker.css" rel="stylesheet">
+		<link href="../admin/assets/js/select2/select2.css" rel="stylesheet">
+		<link href="../assets/css/prettify.css" rel="stylesheet">
 
 		<link rel="shortcut icon" href="//jigowatt.co.uk/favicon.ico">
 
